@@ -1,4 +1,4 @@
-def does_everything(array)
+def my_collect(array)
   if block_given?
     i = 0
     final = []
