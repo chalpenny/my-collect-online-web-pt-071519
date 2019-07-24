@@ -4,7 +4,7 @@ def does_everything(array)
     final = []
     while i < array.length
       yield array[i]
-      final << array[i]
+        final << yield(array[i])
       i += 1
     end
     final
