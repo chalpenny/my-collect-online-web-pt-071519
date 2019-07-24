@@ -11,3 +11,4 @@ def does_everything(array)
   else
     puts "Please enter a block"
 end
+end
